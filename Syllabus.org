@@ -1,0 +1,606 @@
+#+MACRO: ts (mwp-get-ts+7  'mwp-classtimes-calibrate 2)
+
+* Logistics
+
+| *Instructor:*   | Matt Price                            |
+| *Email:*        | matt.price@utoronto.ca                |
+| *Office Hrs:*   | T 1-2:30, [[http://map.utoronto.ca/utsg/building/033][SS 3077]]                     |
+| *Meeting Times* | Thurs 2-4, [[http://map.utoronto.ca/utsg/building/033][SS 1088]]                    |
+| *Web:*          | http://digital.hackinghistory.ca/     |
+| *Slack:*        | https://digitalhistoryuoft.slack.com/ |
+
+* Course Description
+#+begin_src emacs-lisp
+(mwp-get-ts+7 'mwp-classtimes-calibrate 2)
+#+end_src
+
+#+RESULTS:
+: <2019-01-22 Tue>
+
+What does it mean to be modern? We use words like “modern,” “modernity,” and “modernism” to mark a fundamental boundary between our era and all that came before it (or lies outside of it); but most of us are hard-pressed to offer a solid account of what exactly this boundary is. The precise nature of the rupture between modernity and pre- or non-modernity is a vast topic, and this course will not attempt to answer it fully. Instead, we will investigate the question of modernity with a particular eye to the history of science and technology. We will focus on a few key developments which took place in or around the Nineteenth Century, but will also wander into the first decades of the Twentieth.. The organization of the course is an implicit argument that certain phenomena, namely:
+
+1. /a fundamental shift in the nature of daily experience;/
+2. /an order-of-magnitude expansion of the power of the State/; and
+3. /a tremendous growth in the enterprise of Western science and technological production/
+
+were intimately related. Over the coming months we will investigate these themes using a wide variety of sources, from literary texts to scientific papers, from technical history to cultural theory. A particularly urgent goal of the course is to integrate new approaches to the history of science and technology with recent developments in cultural history. For the most part we will focus on European developments, but we will occasionally range our somewhat further, looking in particular at events in the United States and in the European, especially British and French, empires.
+
+This course asks difficult questions and demands a substantial commitment from students; in return, it provides a fairly sophisticated set of tools for thinking about history.
+
+* Prerequisites
+  :PROPERTIES:
+  :CUSTOM_ID: prerequisites
+  :END:
+
+Background in modern European history and some background or interest in the history of science are both highly desirable. The course includes a small amount of technical content, which students will be asked to at least puzzle their way through; it also includes some fairly sophisticated and theoretical secondary sources. 
+
+Class Format:
+
+History Department policy provides for two hours of class time at the third year (Tuesday/Thursday 4-5). I have scheduled two additional hours for optional discussion periods (Tuesday/Thursday 5-6). Though your grade does not include a participation component, attendance at discussions is nonetheless /strongly/ advised. We will be reading difficult texts, and lectures will not cover all the issues they raise. /Your active engagement with the course material is an essential part of the course./
+
+* Course Requirements:
+
+Your grade consists of the following components:
+
+|   | Assignment     | Due Date | Weight |  fix |
+|---+----------------+----------+--------+------|
+| # | Short Paper    |          |     15 |   15 |
+| # | Midterm "Exam" |          |     20 |   20 |
+| # | Paper Proposal |          |     25 |   25 |
+| # | Final Paper    |          |     30 |   30 |
+| # | Final "Exam"   |          |     10 |   10 |
+|---+----------------+----------+--------+------|
+|   |                |          |    100 | 100. |
+#+TBLFM: $>=$>>(100/@>$4)::@>$>>=vsum(@I..@II)
+
+Extensions granted for medical reasons only. Late assignments will be
+deducted 3% per day, with the exception of the take-home exams, which
+/will be marked “0” if not handed in by 5:00 PM on the due date/. Please
+note: the paper proposal is /required/, and term papers will not be
+accepted if a proposal is not handed in. 
+
+* Course Texts
+
+The following first-semester texts are available at the *Toronto Women's
+Bookstore* (73 Harbord St., West of Spadina; web:
+[[http://www.womensbookstore.com/][//http://www.womensbookstore.com//]]):
+
+Marshall Berman, /All That Is Solid Melts Into Air/ (Penguin, 1982)
+
+J.W.v. Goethe, /Faust I and II/ (Princeton, N.J.: Princeton Univ Press)
+
+Wolfgang Schivelbusch, /The Railway Journey/ (Berkeley: University of
+
+California Press, 1987)
+
+Fyodor Dostoyevsky, /Notes from Underground/ *(Delayed!)*
+
+Michel Foucault, /Discipline and Punish/ (Delayed!)
+
+Several other texts will be required next semester.
+
+In addition, the first-semester course reader is available at the
+*Three-Cent Copy Centre* (740 Spadina St, South of Bloor).
+
+* Outline
+
+** {{{n}}} ({{{ts}}})  modernity, modernism, modernization  --tragic and comic views of modernity -- introduction to science studies  
+- We'll discuss
+  - Legibility
+  - knowledge and state power -- the legible city -- mapping territory -- forests, trees, and honeybees
+- Required Readings:
+  - Start Goethe, /Faust/ (see Week 3)
+  - Berman, /All That Is Solid/, 15-36 (Introduction)
+  - Scott, /Seeing Like a State/, 1-8 (“Introduction”), 11-52 (“Nature and Space”)
+** {{{n}}} ({{{ts}}})  Enlightenment Calculation  
+- We'll discuss
+  - Progress and Human Nature
+  - Division of labour -- revolution and calculation -- democracy and authority
+- *Required Readings: *
+  - *Condorcet, “Sketch of the Progress”
+  - *Adam Smith, /Wealth of Nations/, I.i-I.ii
+  - *Lorraine Daston, “Enlightenment Calculations”,/ Critical Inquiry/ 21 (1994): 182-202.
+  - *Habermas, “Structural Transformation of the Public Sphere”
+- /Recommended:/
+  - *E.P. Thompson, “Time, Work-Discipline, and Industrial Capitalism” /Past and Present/ 38 (1967)
+** {{{n}}} ({{{ts}}})  Tragedies of Development 1  
+- We'll discuss
+  - Romance of science
+  - Tragedies of Development 2
+  - Faustian bargains
+- *Required Readings:*/ /
+  - J.W. v. Goethe, /Faust/, 9-23, 32-66, 83-119, 279-305
+  - Berman, /All That is Solid/, 37-86
+  - Recommended Readings:
+  - Mary Shelley, /Frankenstein/.
+** {{{n}}} ({{{ts}}})  From Power of Death to Power of Life  
+- We'll discuss
+  - State power and surveillance -- the gentle way in punishment -- docile subjects
+  - Railway Journeys
+  - Panoramic vision -- contraction of space and time -- machine ensembles
+- *Required Readings:*
+  - *Michel Foucault, “Biopower”
+  - Wolfgang Schivelbusch, /The Railway Journey/, pp.1-45, 52-69
+  - Recommended Readings:
+  - Scott, /Seeing Like a State/, 11-52 (“Nature and Space”)
+  - Michel Foucault, /Discipline and Punish/.
+** {{{n}}} ({{{ts}}})  Thermodynamic Worldview  
+- We'll discuss
+  - The First Law (Joule and Helmholtz)
+  - Thermodynamic Worldview
+  - The Second Law (Entropy, Kelvin)
+- *Required Readings:*
+  - *Hermann von Helmholtz, “On the Interaction of Forces in Nature,” in/ Science and Culture. Popular and Philosophical Essays/, ed. David Cahan (Chicago: University of Chicago Press, 1995), 18-45.
+  - *William Thomson, “On the age of the sun's heat,” /MacMillan's Magazine/ 5 (1862), 288-93.
+  - Crosbie Smith, / The Science of Energy /(selections)
+- Recommended Readings:
+  - Wise and Smith, /Energy and Empire/,
+  - *Robert M. Brain and M. Norton Wise, “Muscles and Engines”, repr. In Biagioli, ed, /The Science Studies Reader/ (New York: Routledge, 1999 [1994]), 51-66.
+  - Anson Rabinbach, “Transcendental Materialism” in /The Human Motor /(Berkeley: UC Press, 1992)
+** {{{n}}} ({{{ts}}})  Utopian Cities 1  
+- We'll discuss
+  - Sewers, Prostitutes, and other Public Health issues -- Modernization for rich and poor
+  - Utopian Cities 2
+  - Crystal Palaces and their Critics
+- *Required Readings:*
+  - Robert Reid, /Paris Sewers and Sewermen/, 25-52.
+  - Baudelaire, /Paris Spleen, /selections.
+  - Dostoevsky, /Notes From Underground/
+  - John Merriman, “The Two Cities of Baron Hausmann.”
+- Recommended Readings:
+  - Berman, /All That Is Solid/131-172 (Baudelaire), 173-286 (Petersburg)
+  - Scott, /Seeing Like a State,/ 53-83 (Cities, People, and Language)
+
+#+begin_src emacs-lisp
+(mwp-get-ts+7 'mwp-classtimes-calibrate 2)
+(when mwp-macro-overlays 
+(mwp-show-macros))
+#+end_src
+
+#+RESULTS:
+: t
+
+
+** {{{n}}} ({{{ts}}}) Utopias 
+** {{{n}}} ({{{ts}}}) Science and Romanticism 
+** {{{n}}} ({{{ts}}}) The Positive Science of Society
+
+** {{{n}}} ({{{ts}}})  Photography and Mechanical Reproduction  
+- We'll discuss
+  - Image of a New World
+  - Commodity Culture
+  - Markets, Utopia, and the World of Things
+- *Required Readings:*
+  - Walter Benjamin, “The Work of Art in the Age of Mechanical Reproduction”, in /Illuminations/
+  - Going to the Fair
+  - Marx, “Commodity Fetishism” in /Capital/
+- Recommended Readings:
+  - Jonathon Crary, /Techniques of the Observer/
+** {{{n}}} ({{{ts}}}) The Subject
+** {{{n}}} ({{{ts}}})  Normalcy 1  
+- We'll discuss
+  - Statistical Persons
+  - Normalcy 2
+- Hysteria
+  - Readings:
+- Required:
+  - Francis Galton, “Probability, the Foundation of Eugenics,” The Herbert Spencer Lecture June 5, 1907 (Oxford: Clarendon Press, 1907).
+  - Alphonse Bertillon, “The Bertillon System,” [cite].
+  - Theodore M. Porter, “The Laws that Govern Chaos,” in /The Rise of Statistical Thinking, 1820-1900/ (Princeton: Princeton UP, 1986) 40-70.
+- /Recommended:/
+  - *Deborah Coon, “Standardizing the Subject: Experimental Psychologists, Introspection, and the Quest for a Technoscientific Ideal,” /Technology and Culture /(1993), 757-783.
+  - Mark Seltzer, “Statistical Persons” in /Bodies and Machines/ (New York: Routledge, 1992) 93-118
+** {{{n}}} ({{{ts}}})  Imperial Science 1  
+- We'll discuss
+  - Networks and Centres of Calculation
+  - Imperial Science 2
+  - Local Knowledge Under Siege
+- *Required Readings:*
+  - Bruno Latour, “Centres of Calculation” in /Science in Action/.
+  - Helen Verran, “Science as an Indigenous Knowledge System”
+- collecting?
+- Recommended Readings:
+** {{{n}}} ({{{ts}}})  Machine Culture 1  
+- We'll discuss
+  - Mechanization of the body
+  - Machine Culture 2
+  - Yankee engineers - electrification
+- *Required Readings:*
+  - Marey
+  - 1847 group (Lenoir or Brain)
+  - Mark Twain, /Connecticut Yankee in King Arthur's Court/.
+- Recommended Readings:
+** {{{n}}} ({{{ts}}})  Techniscientific Aesthetics  
+- We'll discuss
+  - Tones and noise -- colors, motion, effort
+  - New Media System
+  - Film, gramophone, typewriter
+- *Required Readings:*
+  - Hermann von Helmholtz, “Sensations of Tone”
+  - Timothy Lenoir, “Optics... & the Politics of Vision”, in /Instituting Science/ (1998)
+  - Sidney Kwiram “Tones for Thought,” (Honors Thesis, Harvard University, 1999).
+  - something from Materialities of Communication?
+- Recommended Readings:
+  - Friedrich Kittler, /Film, Gramophone, Typewriter/
+** {{{n}}} ({{{ts}}})  Evolution  
+- We'll discuss
+  - Progress and Degeneration
+  - More Evolution
+  - ...of the body
+- *Required Readings:*
+  - Charles Darwin, on selection
+  - Lombroso
+  - Nordau, “Find-de-Siècle” in /Degeneration/
+  - Daniel Pick, /Faces of Degeneration/ (selections)
+- Recommended Readings:
+** {{{n}}} ({{{ts}}}) Recap and Moving Forward  
+- We'll discuss
+   no readings
+** {{{n}}} ({{{ts}}}) Machine Culture  
+- We'll discuss
+   Mark Twain, /A Connecticut Yankee in King Arthur's Court/
+   [1889](selections)
+   -Franz Reuleaux
+   -Bodies and Machines
+** {{{n}}} ({{{ts}}}) The Body as Machine  
+- We'll discuss
+   -Marey
+Marey
+** {{{n}}} ({{{ts}}}) Normalcy, Deviance, and Statistical Persons  
+- We'll discuss
+   Required:
+   Alphonse Bertillon, “The Bertillon System,” [cite].
+   Theodore M. Porter, “The Laws that Govern Chaos,” in /The Rise of
+   Statistical Thinking, 1820-1900/ (Princeton: Princeton UP, 1986)
+   40-70.
+   Lennard J. Davis, “Constructing Normalcy” in /The Disability Studies
+   Reader/ (New York: Routledge, 1997), 2-28
+   /Recommended:/
+   *Deborah Coon, “Standardizing the Subject: Experimental
+   Psychologists, Introspection, and the Quest for a Technoscientific
+   Ideal,” /Technology and Culture /(1993), 757-783.
+   Mark Seltzer, “Statistical Persons” in /Bodies and Machines/ (New
+   York: Routledge, 1992) 93-118
+** {{{n}}} ({{{ts}}}) Hysteria and the Subject  
+- We'll discuss
+   Micale
+   Sigmund Freud, “Project for a scientific Psychology” /Standard
+   Edition of the Complete Psychological Works, vol. 1/ (Selections)
+   Showalter
+** {{{n}}} ({{{ts}}}) Imperial Science  
+- We'll discuss
+   Bruno Latour, “Centres of Calculation” in /Science in Action/
+   Helen Verran, “Science as an Indigenous Knowledge System”
+   Stephen Kern, “Distance” in /The Culture of Time and Space 1880-1920/
+   (1983), 211-240.
+Bruce J. Hunt, “Doing Science in a Global Empire: Cable Telegraphy and
+Electrical Physics in Victorian Britain,” in B. Lightman, /Victorian
+Science in Context/ (Chicago: University of Chicago Press, 1997) 312-333
+** {{{n}}} ({{{ts}}}) Photography  
+- We'll discuss
+Jonathon Crary, /Techniques of the Observer/ (Selections)
+Walter Benjamin, “The Work of Art in the Age of Mechanical
+Reproduction”, in /Illuminations/
+** {{{n}}} ({{{ts}}}) Technoscientific Aethetics  
+- We'll discuss
+Hermann von Helmholtz, “Introduction” to /Sensations of Tone/ (New York:
+Dover, 1954[1877]), 1-6.
+Timothy Lenoir, “The Politics of Vision: Optics, Painting, and Ideology
+in Germany, 1845-95”, in /Instituting Science/ (1998)
+Sidney Kwiram “Tones for Thought,” (Honors Thesis, Harvard University,
+1999), 1-27, 38-81
+** {{{n}}} ({{{ts}}}) New Media  
+- We'll discuss
+   Lisa Gitelman, /Scripts, Grooves, and Writing Machines. Representing
+   Technology in the Edison Era/ (Palo Alto: Stanford UP, 1999).
+   Chapters 2 (62-96), 5 (184-218)
+   Recommended:
+   Friedrich Kittler, /Gramophone, Film, Typewriter/
+** {{{n}}} ({{{ts}}}) Modernist Math and Physics  
+- We'll discuss
+  - Relativity -- clocks and rods -- railroad time -- intuitionism -- pure abstraction
+  - Science of War
+  - Moral equivalents -- war and utopia -- exuberance of the state
+- *Required Readings:*
+  - Albert Einstein, “On the Electrodynamics of Moving Bodies.”
+  - Peter Galison, /Einstein's Clocks/
+  - William James, “The Moral Equivalent of War.”
+- Recommended Readings:
+  - Herbert Mehrtens, /Moderne Sprache Mathematik/.
+  - Wichard von Moellendorf, “Planwirtschaft.”
+** {{{n}}} ({{{ts}}}) Modernism in Math and Physics  
+- We'll discuss
+   Peter Galison, “Einstein's Clocks” /Cr/
+   Dedekind
+   Hilbert
+   Einstein
+** {{{n}}} ({{{ts}}}) World War I  
+- We'll discuss
+   Price
+   Lenoir, “Haber-Bosch”
+** {{{n}}} ({{{ts}}}) Science and Totalitarianism  
+:PROPERTIES:
+:GRADE:    1
+:END:
+- We'll discuss
+   Mario Biagioli
+   Horkneimer & Adorno
+   Scott
+
+#+begin_src emacs-lisp
+(let ((mylist '(2 1)))
+  (cl-loop for i from 3 to 7
+           do
+           (add-to-list 'mylist i ))
+(nth 2 mylist))
+#+end_src
+
+#+RESULTS:
+: 5
+
+#+begin_src emacs-lisp
+(mwp-get-ts+7 'mwp-classtimes-calibrate)
+#+end_src
+
+#+RESULTS:
+: <2019-01-10 Thu>
+
+#+begin_src emacs-lisp :results code
+(add-hook 'mwp-show-macros-final-hook #'hack-local-variables t)
+(run-hooks 'mwp-show-macros-final-hook)
+;; mwp-show-macros-final-hook
+mwp-classtimes-calibrate
+#+end_src
+
+
+#+RESULTS:
+#+begin_src emacs-lisp
+("<2019-01-03 Thu>" "<2019-01-01 Tue>")
+#+end_src
+
+#+begin_src emacs-lisp :results code
+;;(hack-local-variables)
+mwp-classtimes-calibrate
+(alist-get 'mwp-classtimes-calibrate file-local-variables-alist)
+#+end_src
+
+#+RESULTS:
+#+begin_src emacs-lisp
+("<2019-01-03 Thu>" "<2019-01-01 Tue>")
+#+end_src
+
+#+begin_src emacs-lisp
+(let ((l 
+       (make-list 3 (format "<%s>" (format-time-string "%Y-%m-%d %a" )))))
+  (symbol-name 'l))
+#+end_src
+
+#+RESULTS:
+: l
+
+** {{{n}}} ({{{ts}}}) Information  
+* old plans 
+** Introduction (1)
+- OK -- need to add stuff on theories of modernity, & to expand on “tragic” and “comic” views
+- Steam Engine? Eiffel Tower? Pictures of Freud, Marx, Darwin?
+- Foucault, “governmentality”;Weber, “spirit of capitalism”; Marx, “manifesto” & something else;
+- Cohen, KM's thy of history;Elias, “civilizing process”
+** Enlightenment (2)
+- Not great
+- Looks a bit dull -- need to spice it up a bit. More interesting enlightenment stuff -- maybe read darnton or something
+- Stuff from Encyclopedie; Adam Smith
+- Outram, “Enlightenment”; Darnton, ??; Daston, various
+** todos from an old file (outdated)
+JK216 .T713 2004X
+tocqueville: social and political condition of france... essay --
+seems good. Westminster review 25 (apr 18360 137-169);
+ap4.w5 -- FOLUME MAY BE MISSING.
+ JC229 .T775 2002
+*Klemens von Metternich, */*Memoirs (letter to alex)*/DB80.8 .M57 A33
+1970 V.1
+/Joseph de Maistre/, “Essay o the gen princ of political constitution*/*
+*JC229 .M213
+
+* Very similar first-semester plans from another file 
+** 09-09
+- Introduction
+- modernity, modernism, modernization --tragic and comic views of modernity -- introduction to science studies
+- Legibility
+- knowledge and state power -- the legible city -- mapping territory -- forests, trees, and honeybees
+- Required Readings:
+- Start Goethe, /Faust/ (see Week 4)
+- Berman, /All That Is Solid/, 15-36 (Introduction)
+- Scott, /Seeing Like a State/, 1-8 (“Introduction”), 11-52 (“Nature and Space”)
+** 16-09
+- Enlightenment Calculation
+- Progress and Human Nature
+- Division of labour -- revolution and calculation -- democracy and authority
+- *Required Readings: *
+- *Condorcet, “Sketch of the Progress”
+- *Adam Smith, /Wealth of Nations/, I.i-I.ii
+- *Lorraine Daston, “Enlightenment Calculations”,/ Critical Inquiry/ 21 (1994): 182-202.
+- /Recommended:/
+- *E.P. Thompson, “Time, Work-Discipline, and Industrial Capitalism” /Past and Present/ 38 (1967)
+** 23-09
+- Enlightenment Continued
+- Modernity and the Public Sphere
+- Science and Romanticism
+- The Romance of Science
+- *Required Readings:*/ /
+- *Habermas, “Structural Transformation of the Public Sphere”
+- *Isaiah Berlin, /Roots of Romanticism/ (Selections)
+- *Stuart Strickland, “The Ideology of Self-Knowledge and the Practice of Self-Experimentation” /Eighteenth -Century Studies/ 31`:4 (1998) 453-471.
+- *Mary Shelley, /Frankenstein, /Chapter 3.
+- Recommended Readings:
+- Mary Shelley, /Frankenstein/.
+- Bruce Sterling and William Gibson, /The Difference Engine/
+** 30-12
+** 30-09
+- More Romanticism
+- Faustian Bargains
+- Faustian Bargains
+- *Required Readings:*/ /
+- J.W. v. Goethe, /Faust/, 9-23, 32-66, 83-119, 279-305
+- Berman, /All That is Solid/, 37-86
+** Week 5
+** 07-10
+- The World of Steam
+- Engines of Progress
+- Railway Journeys 1
+- *Required Readings:*/ /
+- *John Farey, “Treatise on The Steam Engine” (selections)
+- Wolfgang Schivelbusch, The Railway Journey (through chapter 5)
+** 14-10
+- Thermodynamic Worldview I: Progress
+- Work, Energy, and Waste
+- The First Law (Joule and Helmholtz)
+- *Required Readings:*
+- *Hermann von Helmholtz, “On the Interaction of Forces in Nature,” in/ Science and Culture. Popular and Philosophical Essays/, ed. David Cahan (Chicago: University of Chicago Press, 1995), 18-45.
+- Crosbie Smith, / The Science of Energy /(selections)
+- M. Norton Wise, “Work and Waste I”
+- Recommended Readings:
+- Wise and Smith, /Energy and Empire/,
+- *Robert M. Brain and M. Norton Wise, “Muscles and Engines”, repr. In Biagioli, ed, /The Science Studies Reader/ (New York: Routledge, 1999 [1994]), 51-66.
+- Anson Rabinbach, “Transcendental Materialism” in /The Human Motor /(Berkeley: UC Press, 1992)
+** 21-10
+- The Evolutionary Idea
+- Darwin's voyages
+- “Darwinism”
+- Robert Clambers, /Vestiges of the Natural History of Creation/ (Selections)
+- Charles Darwin, /On The Origin of Species/ (Selections)
+- Herbert Spencer, /The Social Organism/ (Selections)
+- Francis Galton, “Eugenics: Its Definition, Scope and Aims” and “The Possible Improvement of the Human Breed”.
+- From Power of Death to Power of Life
+- Required Reading:
+- Michel Foucault, “Biopower”
+- Michel Foucault, /Discipline and Punish /(selections TBA)
+** 04-11
+- Utopias
+- The Utopian Vision
+- Paris and Petersburg: Sewers, Prostitutes, and other Public Health issues
+- *Required Readings:*
+- Etienne Cabet, “Voyage to Icaria” (Selections)
+- Robert Reid, /Paris Sewers and Sewermen/, 25-52.
+- Baudelaire, /Paris Spleen, /selections.
+- Berman, /All That Is Solid/131-172 (Baudelaire), 173-286 (Petersburg)
+- Recommended Readings:
+- John Merriman, “Les deux Ville de Baron Haussmann.”
+- Scott, /Seeing Like a State,/ 53-83 (Cities, People, and Language)
+** 11-11
+- More Utopias
+- Chicago: Nature's Metropolis
+- And their Critics
+- Crystal Cities
+- Cronon, /Nature's Metropolis/, “Grain” and “Meat”.
+- Dostoevsky, /Notes From Underground/
+- Markets, Utopia and the World of Things
+- *Required Readings:*
+- /Going to the Fair, /Selections/ /
+- Marx, “Commodity Fetishism” in /Capital/
+- Schivelbusch, /Railway Journey/ (finish)
+- Photography and Mechanical Reproduction
+- Jonathon Crary, /Techniques of the Observer/ (Selections)
+- Walter Benjamin, “The Work of Art in the Age of Mechanical Reproduction”, in /Illuminations/
+- Thermodynamic Worldview 2: Degeneration
+- *Required Readings:*
+- *William Thomson, “On the age of the sun's heat,” /MacMillan's Magazine/ 5 (1862), 288-93.
+- Nordau, “Find-de-Siècle” in /Degeneration/
+- Daniel Pick, /Faces of Degeneration/ (selections)
+- Recommended Readings:
+** 04-11
+- Normalcy 1
+- Statistical Persons
+- Normalcy 2
+- Hysteria
+- Readings:
+- Required:
+- Francis Galton, “Probability, the Foundation of Eugenics,” The Herbert Spencer Lecture June 5, 1907 (Oxford: Clarendon Press, 1907).
+- Alphonse Bertillon, “The Bertillon System,” [cite].
+- Theodore M. Porter, “The Laws that Govern Chaos,” in /The Rise of Statistical Thinking, 1820-1900/ (Princeton: Princeton UP, 1986) 40-70.
+- /Recommended:/
+- *Deborah Coon, “Standardizing the Subject: Experimental Psychologists, Introspection, and the Quest for a Technoscientific Ideal,” /Technology and Culture /(1993), 757-783.
+- Mark Seltzer, “Statistical Persons” in /Bodies and Machines/ (New York: Routledge, 1992) 93-118
+** 11-11
+- Imperial Science 1
+- Networks and Centres of Calculation
+- Imperial Science 2
+- Local Knowledge Under Siege
+- *Required Readings:*
+- Bruno Latour, “Centres of Calculation” in /Science in Action/.
+- Helen Verran, “Science as an Indigenous Knowledge System”
+- collecting?
+- Recommended Readings:
+** 18-11
+- Machine Culture 1
+- Mechanization of the body
+- Machine Culture 2
+- Yankee engineers - electrification
+- *Required Readings:*
+- Marey
+- 1847 group (Lenoir or Brain)
+- Mark Twain, /Connecticut Yankee in King Arthur's Court/.
+- Recommended Readings:
+** 25-11
+- Thermodynamic Worldview 2: Degeneration
+- The Second Law (Entropy, Kelvin)
+** 02-12
+- SRailway JourneysPanoramic vision -- contraction of space and time -- machine ensemblesRequired Readings:
+- *Michel Foucault, “Biopower”
+- Wolfgang Schivelbusch, /The Railway Journey/, pp.1-45, 52-69
+- Recommended Readings:
+- Scott, /Seeing Like a State/, 11-52 (“Nature and Space”)
+- Michel Foucault, /Discipline and Punish/.
+
+* 
+#+BEGIN_SRC emacs-lisp :var tbl=planstbl :results raw
+(require 's)
+;; (let ((headings (car tbl)))
+;;   (s-join
+;;    "\n"
+;;    (mapcar
+;;     (lambda (row)
+;;       ;; (concat
+;;       ;; (format "* %s\n" (car row)))
+      
+
+;;     (s-join
+;;      ""
+;;      (cl-map 'list 
+;;              (lambda (hd x) (if (string-match "[:alpha:]" x)(concat "* "hd   "\n- " x)))
+;;              headings row)))
+;;     (remq 'hline (cdr tbl)))))
+
+tbl
+(mapconcat
+ (lambda (row)
+   (concat (if (> (length  (car row)) 0) 
+               (format "* %s\n"(car row)))
+           (mapconcat (lambda (s)
+                        (if (> (length s) 0)
+                            (format "- %s\n" s)))
+                      (cdr row) ""))) tbl "")
+;;tbl
+
+#+END_SRC
+
+#+RESULTS:
+* COMMENT Variables
+#+begin_src emacs-lisp
+(make-local-variable 'org-use-property-inheritance)
+(setq org-use-property-inheritance nil)
+(setq org-lms-baseurl "https://q.utoronto.ca/api/v1/")
+(setq org-lms-token (password-store-get "q.utoronto.ca"))
+;;(org-lms-set-keyword "ORG_LMS_COURSEID" 64706)
+
+;; (org-lms-setup)
+
+file-local-variables-alist
+#+end_src
+
+#+RESULTS:
+
+local variables need to be set at the end of the file. 
+# Local Variables:
+# org-time-stamp-custom-formats: ("<%b. %d>" . "<%Y-%m-%d %H:%M>")
+# mwp-classtimes-calibrate: ("<2019-01-03 Thu>" "<2019-01-01 Tue>" )
+# End:
