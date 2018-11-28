@@ -1,4 +1,4 @@
-#+MACRO: ts (mwp-get-ts+7  'mwp-classtimes-calibrate 2)
+#+MACRO: ts (eval(mwp-get-ts+7  'mwp-classtimes-calibrate 2))
 
 * Logistics
 
@@ -159,7 +159,6 @@ In addition, the first-semester course reader is available at the
 
 #+RESULTS:
 : t
-
 
 ** {{{n}}} ({{{ts}}}) Utopias 
 ** {{{n}}} ({{{ts}}}) Science and Romanticism 
@@ -593,11 +592,14 @@ tbl
 ;;(org-lms-set-keyword "ORG_LMS_COURSEID" 64706)
 
 ;; (org-lms-setup)
+#+end_src
 
+#+begin_src emacs-lisp
 file-local-variables-alist
 #+end_src
 
 #+RESULTS:
+: ((org-time-stamp-custom-formats <%b. %d> . <%Y-%m-%d %H:%M>) (mwp-classtimes-calibrate <2019-01-03 Thu> <2019-01-01 Tue>))
 
 local variables need to be set at the end of the file. 
 # Local Variables:

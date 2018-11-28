@@ -4,6 +4,18 @@
 #+HUGO_STATIC_IMAGES: Images
 #+HUGO_MENU: :menu main :parent Assignments
 #+HUGO_AUTO_SET_LASTMOD: t
+#+MACRO: ts (eval (mwp-get-ts+7  'mwp-classtimes-calibrate 2))
+
+#+begin_src emacs-lisp
+  ;;etq mwp-classtimes-calibrate '("<2019-01-03 Thu>" "<2019-01-01 Tue>" ))
+(mwp-get-ts+7  'mwp-classtimes-calibrate 2)
+mwp-classtimes-calibrate
+
+
+#+end_src
+
+#+RESULTS:
+| <01/15> | <01/10> | <01/08> | <01/03> | <01/01> |
 
 * COMMENT Hugo Instructions
 - Every exportable entry must have the ~EXPORT_FILE_NAME~ property set before export.
@@ -190,7 +202,7 @@ of modernization?
 all nicknames for Margarete. So don't get confused.
 
 
-* Many verysoins of tnlightenment stuff
+* Lecture {{{n}}} ({{{ts}}}): Many verysoins of tnlightenment stuff
 
 ** Enlightenment From Reason to Labour Power
   :PROPERTIES:
@@ -1356,7 +1368,7 @@ also make space for interiority.
 
 
 
-* Brief version of "romanticism"
+* Lecture {{{n}}} ({{{ts}}}): Brief version of "romanticism"
 3 parts to today's lecture:
 
 1. Schelling's Philosohie of Nature
@@ -1415,7 +1427,7 @@ Goether (see quotes)
 "
 
 
-* Frankenstein & Faust
+* Lecture {{{n}}} ({{{ts}}}): Frankenstein & Faust
   :PROPERTIES:
   :CUSTOM_ID: lecture
   :END:
@@ -1647,7 +1659,7 @@ others.
 -but does /not/ ignore the cost.
 
 
-* Engines of Progress
+* Lecture {{{n}}} ({{{ts}}}): Engines of Progress
   :PROPERTIES:
   :CUSTOM_ID: engines-of-progress
   :END:
@@ -1955,13 +1967,13 @@ labour. But calc. itself no longer nec. a mathematical activity.
 Babbage: can replace these humans by machines. fully complete
 dehumanization through calculation by steam.
 
-* Railway Journey [MISSING!!!!]
+* Lecture {{{n}}} ({{{ts}}}): Railway Journey [MISSING!!!!]
   :PROPERTIES:
   :CUSTOM_ID: railway-journey
   :END:
 
 
-* LECTURE 4: THERMODYNAMICS
+* Lecture {{{n}}} ({{{ts}}}): LECTURE 4: THERMODYNAMICS
   :PROPERTIES:
   :CUSTOM_ID: lecture-4-thermodynamics
   :END:
@@ -2377,7 +2389,7 @@ human. Babbage: invert thias, try to make the specifical;ly human
 /mechanical/.
 
 2. expiation of thermodyyn as cultural phenomenon (
-* Foucault (does this really still belong here? 
+* Lecture {{{n}}} ({{{ts}}}): Foucault (does this really still belong here? 
 Foucault Lecture:
 
 I. Background on Foucault:
@@ -2507,7 +2519,7 @@ combinatory.
 
 means of correct training: judgment; =--=-
 )
-* Chicago and Petersburg.
+* Lecture {{{n}}} ({{{ts}}}): Chicago and Petersburg.
 
 Today talking about two cities which, unlike Paris, were constructed /ex
 nihilo/ in the 18^{th} and 19^{th} centuries, and which were both
@@ -2753,7 +2765,7 @@ feed lots (which stave off decay of loife) AND refrigeration.
 - --brofit margins on refuse=rationalization of industry.
 
 
-* Machine Culutre v. 1 (starts w/ Mark Twain)
+* Lecture {{{n}}} ({{{ts}}}): Machine Culutre v. 1 (starts w/ Mark Twain)
 Machine Culture
 
 (lecture 15, jan 2005)
@@ -3081,7 +3093,7 @@ Yankee Engineer
 mobiles; move on towards factory work, standards, war.
 )
 
-* another version of machine culture
+* Lecture {{{n}}} ({{{ts}}}): another version of machine culture
   :PROPERTIES:
   :CUSTOM_ID: lecture
   :END:
@@ -3362,7 +3374,7 @@ Yankee Engineer
 
  Fooucault, ‘combination' of partsL Latour, combijnation of immutable
 mobiles; move on towards factory work, standards, war.
-* Action at a Distance/centres of calculation/imperial science
+* Lecture {{{n}}} ({{{ts}}}): Action at a Distance/centres of calculation/imperial science
 
 Centres of Calculation and Imperial Science
 
@@ -3826,7 +3838,7 @@ science, since it mislabels the ‘enemy' as a person or group of people,
 when(a) existence of enem y überhaupt is complex matter open to debate,
 and (b) if there is an enemy, it's something far more complicated.
 
-* Degeneration (rough notes only!!!)
+* Lecture {{{n}}} ({{{ts}}}): Degeneration (rough notes only!!!)
 jDegeneration:
 
 Ewvents:
@@ -3868,7 +3880,7 @@ useful.
 irony of jewish prophets of degeneration laying groundwork for nazi
 science.
 
-* Relativity + Some notes on war
+* Lecture {{{n}}} ({{{ts}}}): Relativity + Some notes on war
 Points to inseert re: einstein and poincare:
 
 poincare: problem of michelson morley. Lorentz's time and space
@@ -4014,7 +4026,7 @@ virtues must be the enduring cement; intrepidity, contempt of softness,
 surrender of private interest, obedience to command, must still remain
 the rock upon which states are built...
 
-* Normalcy and Statistical Persons
+* Lecture {{{n}}} ({{{ts}}}): Normalcy and Statistical Persons
 
 WEEK 17
 
@@ -4063,7 +4075,7 @@ carpenter's square).
 
 From this term we get the idea of a norm as a standard, e.g.,
 
-* norme
+* Lecture {{{n}}} ({{{ts}}}): norme
   :PROPERTIES:
   :CUSTOM_ID: norme
   :END:
@@ -4107,7 +4119,7 @@ strange physiological states; health was simpsle normalcy.
 
 Bernard says: no. a helathy person
 
-* Statistical Persons
+* Lecture {{{n}}} ({{{ts}}}): Statistical Persons
   :PROPERTIES:
   :CUSTOM_ID: statistical-persons
   :END:
@@ -4515,7 +4527,7 @@ way to set disabled off from desired humanity.
 
 
 
-* Review of normaslcy and segue to hysteria.
+* Lecture {{{n}}} ({{{ts}}}): Review of normaslcy and segue to hysteria.
 
  Last week, had we had lecture, we would have discussed the idea of
 /normalcy/ and its relation to statistial reasoning. There are several
@@ -4750,7 +4762,7 @@ energy. Divergence, blockage, release.
 
 thy of defence.
 
-* Lecture : "Constructing the Subject"
+* Lecture {{{n}}} ({{{ts}}}): Lecture : "Constructing the Subject"
   :PROPERTIES:
   :CUSTOM_ID: lecture
   :END:
@@ -4960,7 +4972,7 @@ Binet, Terman, Stanford-Binet; use in WWI.
     :CUSTOM_ID: an-indispensable-science-psych-war-legibility-normalization
     :END:
 
-* psychoanalysis - -very odd lecture that needs a lot of work!
+* Lecture {{{n}}} ({{{ts}}}): psychoanalysis - -very odd lecture that needs a lot of work!
 18: Hysteria &c.
 
 Review of normaslcy and segue to hysteria.
@@ -5198,7 +5210,7 @@ energy. Divergence, blockage, release.
 
 thy of defence.
 
-* Photography & Mechanical Objectivity
+* Lecture {{{n}}} ({{{ts}}}): Photography & Mechanical Objectivity
 Photography: the important part.
 
 planographic lithography:
@@ -5260,7 +5272,7 @@ photogrpahy as essential to birth of mass media
 3. 
 4. mechanical objectivity.
 
-* TechnoScientific Aesthetics
+* Lecture {{{n}}} ({{{ts}}}): TechnoScientific Aesthetics
 
 Last week we talkerd about photogrpahy's various reelationships to
 science: both the scientific, esp chemical, basis for the invention of
@@ -5404,7 +5416,7 @@ dissonance as matter of degree; mental energy, abstraction;
 
 Mach: plasticity of sensory organs.
 
-* H. G. Wells, the Future, and Futurism
+* Lecture {{{n}}} ({{{ts}}}): H. G. Wells, the Future, and Futurism
 
 I'll argue today that H.G. Wells invented the future. Obviously in order
 to do so I need to narrow down my definition of the future
@@ -6037,7 +6049,7 @@ Mori]], produce work which comments on futurist ideals.
     :CUSTOM_ID: the-futurist-notion-of-art-technology-and-the-future...
     :END:
 
-* Lectures on WW1 and WW2 -- WW1 astonishingly has almost noghitn in it!
+* Lecture {{{n}}} ({{{ts}}}): Lectures on WW1 and WW2 -- WW1 astonishingly has almost noghitn in it!
 Science in World War I
 
 We've been discussng, at length, the period leading up to the First
@@ -6204,7 +6216,7 @@ battlefield, smart bombs.
 
 
 
-* New Media System: ca. 1900
+* Lecture {{{n}}} ({{{ts}}}): New Media System: ca. 1900
 
 We started this course with the steam engine. Soon we'll approach its
 climax -- the First World Warr -- and move on to its denouement -- the
@@ -6339,7 +6351,7 @@ Tuting machine, ocmputer.
 [[http://www.incwell.com/Biographies/Sp1.gif]]
 
 
-* Extremely brief math notes (modernism)
+* Lecture {{{n}}} ({{{ts}}}): Extremely brief math notes (modernism)
 Carnap:
 
 “Scientific knowledge is objective solely in virtue of its formal or
@@ -6382,7 +6394,7 @@ things as well.”
 
 
 
-* Old Final Lecture
+* Lecture {{{n}}} ({{{ts}}}): Old Final Lecture
 Final Lecture: Practical Knowledge
 
 Reflections on what we've accomplished.
@@ -6477,7 +6489,7 @@ willingness to step down from the pedestal.
 
 
 
-* Topic 1
+* Lecture {{{n}}} ({{{ts}}}): Topic 1
 :PROPERTIES:
 :EXPORT_FILE_NAME: 01-topic-1
 :END:
@@ -6496,8 +6508,23 @@ testing out the overview
 ** some stuff
 
 ** another stuff
-* Topic 2
-* COMMENT Local Variables                          
+* Lecture {{{n}}} ({{{ts}}}): Topic 2
+* Lecture {{{n}}} ({{{ts}}}): COMMENT Local Variables                          
 # Local Variables:
 # org-reveal-auto-export-on-save: t
+# End:
+
+* COMMENT Variables
+
+#+begin_src emacs-lisp
+file-local-variables-alist
+#+end_src
+
+#+RESULTS:
+: ((org-reveal-auto-export-on-save . t))
+
+* 
+# Local Variables:
+# org-time-stamp-custom-formats: ("<%b. %d>" . "<%Y-%m-%d %H:%M>")
+# mwp-classtimes-calibrate: ("<2019-01-03 Thu>" "<2019-01-01 Tue>" )
 # End:
