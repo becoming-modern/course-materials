@@ -1,0 +1,397 @@
+#+STARTUP: customtime
+#+HUGO_BASE_DIR: ./website/
+#+HUGO_SECTION: assignment
+#+HUGO_STATIC_IMAGES: Images
+#+HUGO_MENU: :menu main :parent Assignments
+#+HUGO_AUTO_SET_LASTMOD: t
+#+CATEGORY: assignments
+#+TAGS: 
+#+DESCRIPTION: 
+#+TITLE: Assignments
+#+HUGO_MENU: :menu main :parent Assignments
+#+HUGO_AUTO_SET_LASTMOD: t
+# #+ORG_LMS_COURSEID: 64706
+#+PROPERTY: :header-args :results code
+
+* COMMENT Hugo Instructions
+- Every exportable entry must have the ~EXPORT_FILE_NAME~ property set before export.
+
+
+** Check out this elisp code if you're having trouble
+
+#+begin_src emacs-lisp
+(use-package ox-hugo-auto-export)
+
+#+end_src
+
+#+RESULTS:
+
+* Overview
+:PROPERTIES:
+:EXPORT_FILE_NAME: overview
+:END:
+
+testing out the overview
+ 
+* 2002 Midterm Exam
+
+*Due /Friday, Feb. 28 at 11:00 AM/*
+
+*Instructions:* Answer two of the following questions in the form of short essays (ca. 1200-1800 words = 4-6 pages double-spaced each). The questions are designed to allow a certain amount of flexibility in their answers., but you should (as always!) try to write essays with the following virtues:
+
+- strong, readily identifiable thesis
+- clear, easy-to-follow structure
+- convincing use of evidence from the source texts
+
+You may refer to the recommended readings if you wish, or to outside readings if you must, but you should be able to answer these questions based solely on your knowledge of lectures and the required readings. If you do refer to texts that have not been assigned, please be sure to give full citations (otherwise, rough citations of the form “Author, Title, page number” are sufficient).
+
+Advice:
+
+- Spend some time tonight going over the questions, and decide quickly which questions you want to answer, and what course texts you need to use in order to do so adequately.
+
+- Dedicate at least one /long/ evening to writing these essays. But don't spend too much more time than that. This is a hard test, but I don't intend for you to take the full ~65 hours to complete it.
+
+- If you're using the recommended reading, please bear in mind that I, too, have read these works, and that I will notice if you simply copy out their arguments. Be sure to come up with your own thoughts.
+
+** Admonition
+
+Do not discuss this test with your classmates. Please remember that I will be grading these tests myself, and I'll notice if your answers are very similar to those of your classmates.
+
+** Exam Questions
+       :PROPERTIES:
+       :CUSTOM_ID: exam-questions
+       :END:
+
+Remember, answer exactly two (2) of the following.
+
+1. Michel Foucault suggests that “the ancient right to /take/ life or /let/ live was replaced by a power to /foster/ life or /disallow/ it to the point of death.” (/Hist. Sex. v.I, /p.138) /Explain/ this argument and the /evaluate /it, in light of the readings and themes of this course.
+2. Chapter VII of /Notes from Underground/ is largely a diatribe againstthe idea that virtuous action in pursuit of one's own interests (“profit”) can lead to happiness. It ends with this challenge:
+    “...man... has always and everywhere liked to act as he wants, and not at all as reason and profit dictate; and one can want even against one's own profit, and one sometimes even /positively must/... Where did all these sages get the idea that man needs some normal, some virtuous wanting? What made them necessarily imagine that what man needs is necessarily a reasonably profitable wanting? Man needs only /independent/ wanting, whatever this independence may cost and wherever it may lead.” (25-26)
+   - What is the Underground Man's argument, and how convincing is it?
+   - What consequences does it have for the various optimistic and Utopian plans we have studied in this class?
+   - Is there, in your view, anything /appealing/ or /heroic/ in the Underground Man's rejection of rationality?
+3. Overlooking the masses labouring on his great scheme, Faust feels contentment for the first time since his encounter with Mephistopheles, and drops to the ground, dead (11570-11586). The angels then raise him up to heaven. Why is his bargain with Mephistopheles (“If I should ever say to any moment / Tarry, remain!-- you are so fair!" 1699-1700) brought to completion now, and only now? What attitude towards progress and, more generally, modernity itself, do these last scenes of the tragedy convey?
+4. "Crosbie Smith argues that Kelvin's discovery of energy conservation was a result of ideological commitments he gained as a result of the town he lived in and the people he know. This is just plain misguided. The Laws of Thermodynamics are laws of nature, and they would inevitably be discovered by someone, regardless of the culture they came from. And in fact, the simultaneous discovery of the conservation of energy proves just that.” Sketch out the strongest possible reply Smith could make to this objection. Then explain which side of the argument you're more sympathetic to, and why.
+5. “The widespread influence of the steam engine on nineteenth century perceptions of space and time, on the art of that period, and on ideas of social order, clearly demonstrates that technology /determines/ the course of social and especially cultural history, rather than the other way around.” Evaluate this claim in light of the course readings.
+
+
+
+
+
+* 2004 Midterm 2
+Midterm Exam, Mark II
+
+Due Friday, Feb. 13
+
+*Instructions: *Answer ONE of the following questions in the form of short essays (ca. 1500-2100 words = 5-7 pages double-spaced each). The questions are designed to allow a certain amount of flexibility in their answers., but you should (as always!) try to write essays with the following virtues:
+
+- strong, readily identifiable thesis
+- clear, easy-to-follow structure
+- convincing use of evidence from the source texts
+
+You may refer to the recommended readings if you wish, or to outside readings if you must, but you should be able to answer these questions based solely on your knowledge of lectures and the required readings. If you do refer to texts that have not been assigned, please be sure to give full citations (otherwise, rough citations of the form “Author, Title, page number” are sufficient).
+
+** Admonition
+    :PROPERTIES:
+    :CUSTOM_ID: admonition
+    :END:
+
+Do not discuss this test outside class. Please remember that I will be grading these tests myself, and I'll notice if your answers are very similar to those of your classmates.
+
+- 
+
+** Exam Questions
+:PROPERTIES:
+:CUSTOM_ID: exam-questions
+:END:
+
+Remember, answer exactly ONE of the following.
+
+1. Michel Foucault suggests that “the ancient right to /take/ life or /let/ live was replaced by a power to /foster/ life or /disallow/ it to the point of death.” (/Hist. Sex. v.I, /p.138) /Explain/ this argument and the /evaluate /it, referring to other course readings to support your claims.
+
+2. Chapter VII of /Notes from Underground/ is largely a diatribe against the idea that virtuous action in pursuit of one's own interests (“profit”) can lead to happiness. It ends with this challenge:
+
+   “...man... has always and everywhere liked to act as he wants, and not at all as reason and profit dictate; and one can want even against one's own profit, and one sometimes even /positively must/... Where did all these sages get the idea that man needs some normal, some virtuous wanting? What made them necessarily imagine that what man needs is necessarily a reasonably profitable wanting? Man needs only /independent/ wanting, whatever this independence may cost and wherever it may lead.” (25-26)
+
+   Explain this argument, evaluate it, and relate it other readings from the course.
+
+3. In 1842, a group of German scientists swore an oath “to defend the truth that there are no other forces in the organism except physicochemical forces and that these are always reducible to repulsive and attractive components.” What was the status of this “truth” by 1900? That is, was it triumphantly victorious, under siege, or discredited?
+
+4. Would it be fair to call the Connecticut Yankee a /Faustian/ figure? Why or why not?
+
+5. What makes the idea of the norm so powerful? Make sure that your answer is at least in part a /historical/ one.
+
+6. What does Bruno Latour mean by the term “immutable mobile”? Using concrete examples from the course, evaluate the usefulness of this concept to explain the success of science in the nineteenth century.
+
+* 2004 *Midterm Exam* I
+
+Due Tues, Nov. 9 in Class
+
+*Instructions: * Answer two of the following questions in the form of short essays (ca. 1500-2100 words = 5-7 pages double-spaced each). The questions are designed to allow a certain amount of flexibility in their answers, but you should (as always!) try to write essays with the following virtues:
+
+- strong, readily identifiable thesis
+
+- clear, easy-to-follow structure
+
+- convincing use of evidence from the source texts
+
+You may refer to the recommended readings if you wish, or to outside readings if you must, but you should be able to answer these questions based solely on your knowledge of lectures and the required readings. If you do refer to texts that have not been assigned, please be sure to give full citations (otherwise, rough citations of the form “Author, Title, page number” are sufficient).
+
+Advice:
+
+*-*Spend some time tonight going over the questions, and decide quickly which questions you want to answer, and what course texts you need to use in order to do so adequately.
+
+- Dedicate at least one /long/ evening to writing this essay. But don't spend too much more time than that. This is a hard test, but I don't intend for you to take the full week to complete it.
+
+- * Admonition
+    :PROPERTIES:
+    :CUSTOM_ID: admonition
+    :END:
+
+Do not discuss this test with your classmates. Please remember that I will be grading these tests myself, and I'll notice if I get a bunch of identical papers.
+
+- 
+
+  - ** Exam Questions
+       :PROPERTIES:
+       :CUSTOM_ID: exam-questions
+       :END:
+
+Remember, answer exactly one (1) of the following.
+
+1. Marshall Berman defines modernity in the first paragraph of /All that
+   is Solid Melts into Air/ as “a mode of vital experience.” (p.15) James C. Scott, on the other hand, analyzes modernity and modernism in terms of “legibility” -- the “state's attempt... to arrange the population in ways that simplified the classic state functions of taxation, conscription, and prevention of rebellion.” (p.15) At least at first glance, these appear to be very different definitions. Are these notions compatible with each other? Are Berman and Scott simply talking about two completely different entities, but using the same word to describe them?
+
+2. “Romantics proclaimed the absolute freedom of the individual and the
+   divinity of nature. A scientist, though, must be strictly constrained by fact and method, and must always approach Nature objectively. Romanticism is thus strictly incompatible with science.”\\ Offer the strongest possible counterargument to this quotation, and then take your own stance about the relationship between science and romanticism.
+
+3. Compare William Thompson's notion of progress to those of Robert
+   Chambers and Charles Darwin. Would you say that these three viewpoints are consistent with each other? Are they compatible with the views of Condorcet and Adam Smith?
+
+4. Overlooking the masses labouring on his great scheme, Faust feels
+   contentment for the first time since his encounter with Mephistopheles, and drops to the ground, dead (11570-11586). The angels then raise him up to heaven. Why is his bargain with Mephistopheles (“If I should ever say to any moment / Tarry, remain!-- fair!" 1699-1700) brought to completion now, and only now? What attitude towards progress and, more generally, modernity itself, do these last scenes of the tragedy convey?
+
+5. "Crosbie Smith argues that Kelvin's discovery of energy conservation
+   was a result of ideological commitments he gained as a result of the town he lived in and the people he know. This is just plain misguided. The Laws of Thermodynamics are laws of nature, and they would inevitably be discovered by someone, regardless of the culture they came from. And in fact, the simultaneous discovery of the conservation of energy proves just that.” Sketch out the strongest possible reply Smith could make to this objection. Then explain which side of the argument you're more sympathetic to, and why.
+
+6. “The widespread influence of the steam engine on nineteenth century
+   perceptions of space and time, on the art of that period, and on ideas of social order, clearly demonstrates that technology /determines/ the course of social and especially cultural history, rather than the other way around.” Evaluate this claim in light of the course readings.
+
+7. What does Michel Foucault mean by the term “biopower”? Explain the
+   concept by reference to the course readings. Is this a useful analytical framework, in your view? Why or why not?
+
+
+
+* 2005 final exam
+
+** Aids Allowed: Two (2) 8.5x11 pages of notes (front and back)
+  :PROPERTIES:
+  :CUSTOM_ID: aids-allowed-two-2-8.5x11-pages-of-notes-front-and-back
+  :END:
+
+*Instructions:*
+
+This exam consists of two parts; the first part is worth 20% of your grade, the second part is worth 80%. You should apportion your time appropriately. Be sure to answer both parts.
+
+Part I (20 points)
+
+Identify and /briefly/ discuss the importance of each of the following. Your answers should be a /maximum/ of one paragraph long. Each answer is worth 5 points.
+
+|   |   |
+|   |   |
+
+Part II (80 Points)
+
+Answer exactly one of the following questions in a well-structured essay. You should feel free to disagree with any implicit or explicit assumptions the question makes!
+
+1. The nineteenth century has been called ‘the most Utopian of all
+   centuries.' /Interpret/ and /evaluate/ this claim.
+2. Did science enable the growth of the State in the nineteenth century,
+   or, conversely, was the expansion of State power responsible for the growth of science?
+3. Discuss the effects of modernity and modernization on the human body.
+4. To what extent were modernist aesthetic sensibilities shaped by
+   science and technology?
+5. What is the relation between violence and modernity?
+
+* Midterm 2006ish
+ 
+
+  - ** Exam Questions
+       :PROPERTIES:
+       :CUSTOM_ID: exam-questions
+       :END:
+
+Remember, answer exactly two (2) of the following.
+
+1. Marshall Berman defines modernity in the first paragraph of /All that
+is Solid Melts into Air/ as “a mode of vital experience.” (p.15) James C. Scott, on the other hand, analyzes modernity and modernism in terms of “legibility” -- the “state's attempt... to arrange the population in ways that simplified the classic state functions of taxation, conscription, and prevention of rebellion.” (p.2) At least at first glance, these appear to be very different definitions. Are these notions compatible with each other? Are Berman and Scott simply talking about two completely different entities, but using the same word to describe them?
+
+2. /Answer one of the following:/
+
+(a)Here are two views on human progress:
+
+Cited in Farey, p.5:
+
+[The steam engine] has increased indefinitely the mass of human comforts and enjoyments, and rendered cheap and accessible all over the world the materials of wealth and prosperity; it has armed the feeble hand of man, insfort, with a power to which no limits can be assigned; completed the dominion of mind, over the most refractory qualities of matter, and laid a sure foundation for all those future miracles of mechanic power which are to aid and reward the labours of after generations...”
+
+Condorcet, p.14:
+
+How consoling for the philospher who laments the errors, the crimes, the injustices which still pollute the earth and of which he is often the victim is this view of the human race, emancipated from its shackles, released from the empire of fate and from that of the enemies of its progress, advancing with a firm and sure step along the path of truth, virtue and happiness! It is the contemplation of this prospect that rewards him for all his efforts to assist the progress of reason and the defense of liberty.
+
+Would you say that the two notions of progress under discussion in these texts are similar to or compatible with each other? How does they compare with the attitude towards progress to be found in Shelley's /Frankenstein?/
+
+or
+
+(b)Overlooking the masses labouring on his great scheme, Faust feels contentment for the first time since his encounter with Mephistopheles, and drops to the ground, dead (11570-11586). The angels then raise him up to heaven. Why is his bargain with Mephistopheles (“If I should ever say to any moment / Tarry, remain!-- you are so fair!” 1699-1700) brought to completion now, and only now? What attitude towards progress and, more generally, modernity itself, do these last scenes of the tragedy convey?
+
+3. Lorraine Daston says that “The history of calculation in the
+Enlightenment is a chapter in the cultural history of intelligence.” (p.185) What is the “history of intelligence”? Is it something we can study? How? What other “chapters” might be written in this history?
+
+ 4. "Crosbie Smith argues that Kelvin's discovery of energy conservation
+was a result of ideological commitments he gained beacuse of the town he lived in and the people he knew. This is just plain misguided. The Laws of Thermodynamics are laws of nature, and they would inevitably be discovered by someone, regardless of the culture they came from. And in fact, the simultaneous discovery of the conservation of energy proves just that.” Sketch out the strongest possible reply Smith could make to this objection. Then explain which side of the argument you're more sympathetic to, and why.
+
+5. “The widespread influence of the steam engine on nineteenth century
+perceptions of space and time, on the art of that period, and on ideas of social order, clearly demonstrates that technology /determines/ the course of social and especially cultural history, rather than the other way around.” Evaluate this claim in light of the course readings.
+
+
+
+* Final 2005
+*Instructions:*
+
+OK... So you have a choice here. There are two sets of questions, of which you should answer *exactly one in total*. Not one from each section, but one in total. I like some of my general questions and couldn't give them up, even though I promised you the test would only cover the last 1/3 of the course. So now you have a choice. Answer exactly one of the questions below, in an essay of about 6 pages in length; as for the rest, you know the drill by now I think.
+
+Most General
+
+1. Did science enable the growth of the State in the nineteenth century,
+   or, conversely, was the expansion of State power responsible for the growth of science?
+2. Discuss the effects of modernity and modernization on the human body.
+3. To what extent were modernist aesthetic sensibilities shaped by
+   science and technology?
+4. What is the relation between violence and modernity?
+
+Less General
+
+1. “Sigmund Freud poses as the great liberator of human consciousness from the bonds of mechanism. In fact, his psychoanalytic theory was (1) perfectly congruous with other disciplines of the mind that developed around the same time, like psychology and its subdiscipline psychotechnics; and (2) grounded in the systematic mischaracterization and even abuse of his female subjects.” Respond to this criticism, supporting it where you agree, presenting counter-evidence where you disagree.
+2. “Pseudo-science like that practiced in the concentration camps, or by charlatans such as Lysenko in the Soviet Union, must on no terms be misunderstood as science. It differs fundamentally from true science in its methods, its ethics, and its effects on society.” Attack and/or defend.
+3. “H.G. Wells, in addition to being a weird inter-species pederast, was of no particular literary importance. In particular, /The Time Machine/ is a work of no literary merit, and sheds as little light on the future as it did on Wells's present-day society.” As above...
+
+
+* Research Paper
+
+- *Length:* 20-25 pages
+- Duedate: April 1
+- Proposal Duedate: Feb. 25
+
+This is the most significant assignment of the course -- a major research paper, on a topic of your choice (which should nonetheless fall within the thematic bounds of the course). As an interdisciplinary scholar, I'm pretty flexible in my criteria for topic choice and analytic framework, but I do insist on the following:
+
+- this is a /history/ paper -- so whatever topic you choose to examine, your objective should be to understand the past, rather than to give a /strictly/ sociological or philosophical analysis.
+- you should confine yourself to the period covered by the course --  roughly, from the late 18^{th} to the late 20^{th} centuries.
+- you should have a clear sense of how your paper relates to the themes of the course -- things like legibility, biopower, utopia, energ/entropy, machine culture, technologies of subjectivity, etc. etc.
+
+I strongly suggest taking last semester's Research Exercise as as a model for choosing a topic. By this I mean: find something very specific that interests you, and situate it in one or more contexts, thereby making clear to yourself and to the reader just how fascinating this object is. By focussing on something very specific, you make it /much/ more likely that you'll have something original and interesting to say.
+
+I don't insist on this method absolutely, but as I say, I /strongly/ suggest it, unless you're working on something else that really rocks your boat.
+
+The proposal is due at the end of February and is primarily intended to make sure you're on the right track. It need not be as elaborate as your last proposal -- I'd like aobut 2 paragraphs describing your topic and the line of argument you hope to take, along with a short, unannotated bibliography. I'll reply with suggestions on how to refine the topic and where I think you might find some helpful sources (if I know anything that will help!).
+
+As always, the final papers will be graded on the strength and interestingness of the thesis argument, the clarity of the prose and paper structure, and the convincing use of evidence to support your arguments. In terms of grading, roughly: B Papers have all the virtues, C papers lack one, D and F papers are importantly deficient in at least one area, and A papers have all three virtues plus some undefinable spark.
+
+Enjoy!
+
+Matt
+
+*** Some Resources to Bear in Mind
+
+We have an excellent library, and the reference librarians can be of
+enormous help. You should use this resource. In addition, there are
+large numbers of online resources available via the library website --
+you can find them all at
+[[http://eir.library.utoronto.ca/][http://eir.library.utoronto.ca]] :
+
+Online Journals
+
+JStor: massive online journal collection
+
+Project MUSE: the next-biggest collection
+
+More online journals linked from:
+[[http://link.library.utoronto.ca/MyUTL/guides/index.cfm?guide=ecollections]]
+
+Online Indexes
+
+Eureka History of Science, Technology and Medicine Index
+
+MLA bibliography
+
+Web of Science citation indexes
+
+19^{th} Century Masterfile(multi-faceted index and resource)
+
+FRANCIS (also from Eureka) -- international/multi-lingual humanities
+index
+
+... and many more...
+
+Help With Research Papers
+
+The Writing Centres have a website:
+
+[[http://www.utoronto.ca/writing/centres.html]]
+
+
+* Research Exercise 2005?
+This is an /exercise/, not a paper. The purpose of the exercise is twofold:
+
+1) To help you develop research skills in preparation for the upcoming research paper (next semester).
+2) To get you thinking about how to frame a research question which can develop into an interesting paper.
+
+Your assignment is to write a research proposal about one of several “objects” I've assembled for you on the website: (http://www.derailleur.org/SciTechMod/ResearchExercise).
+
+They are:
+
+- E.T.A. Hoffmann's short story, “Automata”
+
+- A photograph of the Eiffel Tower under construction
+
+- Lord Kelvin's Tide Predictor
+
+- Carl Ludwig's kymograph
+
+I've purposely chosen a range of objects: one story, one photograph, and two pieces of technology. Other objects I considered included advertisements, scientific texts, and paintings. These are all categories of object you might want to think about investigating as you prepare to write your research papers next semester.
+
+The assignment consists of the following parts:
+
+A. Write a 2-3 page proposal for a research paper which would focus on the object you've chosen. Specify your /research question/, your /research methods/, and /the qualities that make this question pressing or interestng. /
+
+B. In addition, compose a three-part bibliography:
+
+- an /annotated bibliography/ of works you've had a chance to look at.
+“Annotated” means that, in addition to citation information, you include a few sentences outlining the work's thesis and evaluating its usefulness or ideological slant. An example:
+
+Donald Reid, /Paris Sewers and Sewermen/ (Cambridge: Harvard UP, 2002).
+
+A study of the Paris sewers and the people who worked in them in the nineteenth century, using a wide variety of sources. Treats the sewers as metaphor and reality, and as a barometer for reformers' thinking about social order. A bit too mucky for my taste.
+
+- An ordinary bibliography of works you've found citations for, but
+haven't been able to look at for some reason or other.
+
+- A listing of bibliographical research tools you've used in compiling
+the bibliography. These can include electronic indexes and archives as well as printed bibliographies. Talk to a reference librarian about indexes and reference works that might be of use; three sources that I find indispensable are the History of Science bibliogrpahy accessed through Eureka, and the JStor and MUSE Project archives of academic journals .
+
+Hints on how to proceed
+
+The two hardest parts of writing a research paper are usually /finding a topic/ and /framing a research question/. For this assignment the first problem is solved for you -- I've provided the topcis. But you still need to figure out a question which is both interesting and of some scholarly value. Ask yourselves questions like the following:
+
+- What makes this object interesting?
+
+- How does this object relate to themes we've discussed in class? How can I use some of the books we've read to understand it?
+
+- What do I need to know about this object in order to understand it? You might want to divide this into a set of questions about the /context of production/, the /context of distribution/, and the /context of consumption/. So: who made this object, and how did they do it? How was the object disseminated and received by others? What functions did it fulfill?
+
+This exercise should be fun. Allow yourself to range widely, and feel free to entertain somewhat wacky and farflung ideas for your proposal.
+
+* Paper Assignment 1
+* COMMENT Local Variables                          
+# Local Variables:
+# org-hugo-auto-export-on-save: t
+# End:
