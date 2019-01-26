@@ -4,12 +4,12 @@
 #+HUGO_STATIC_IMAGES: Images
 #+HUGO_MENU: :menu main :parent Assignments
 #+HUGO_AUTO_SET_LASTMOD: t
-#+MACRO: ts (eval (mwp-get-ts+7  'mwp-classtimes-calibrate 2))
+#+MACRO: ts (eval (mwp-get-ts+7  'org-mwp-classtimes-calibrate 2))
 
 #+begin_src emacs-lisp
-  ;;etq mwp-classtimes-calibrate '("<2019-01-03 Thu>" "<2019-01-01 Tue>" ))
-(mwp-get-ts+7  'mwp-classtimes-calibrate 2)
-mwp-classtimes-calibrate
+  ;;etq org-mwp-classtimes-calibrate '("<2019-01-03 Thu>" "<2019-01-01 Tue>" ))
+(mwp-get-ts+7  'org-mwp-classtimes-calibrate 2)
+org-mwp-classtimes-calibrate
 
 
 #+end_src
@@ -200,6 +200,65 @@ of modernization?
 
 -ALSO: if you don't speak German: Gretel, Gretchen, and Gretelchen are
 all nicknames for Margarete. So don't get confused.
+
+
+* Lecture {{{n}}} ({{{ts}}}): Brief version of "romanticism"
+3 parts to today's lecture:
+
+1. Schelling's Philosohie of Nature
+
+2. Goethe's History
+
+   Goethe as scientist,writer, and administrator.
+
+   Scientist: Urbild, Urplanze. Nature as opposing forces...
+
+   Asministrator:
+
+2. Faustian Myths and bargains...
+
+Schelling, 1797: (Allgemeine Uebersicht der neusten philosophischen
+Literatur)
+
+because there is in our spirit an infinite striving to organize itself,
+so in the outer world must a general tendency to organization reveal
+itself... The world system is a dkind of organization, which has formed
+itself from a common centre. The powers of chemical matter are already
+beyond the boundaries of the merely mechanical. Even raw materials which
+separate out of a common medium crystallize out as sregular figures. The
+general formative drive [Bildungstrieb] in nature loses itself finally
+in an infinitude, which even the prepared eye is unable to measure....
+It is the general Spirit of nature, whuch gradually forms the raw matter
+into itself. From moss, in which the trace of organization is hardly
+visible, to the noble Form, whuch seems to have shed the chains of
+matter, there rules one and the same drive within, which strives to work
+according to one and the same Ideal of Purposefulness, strives to
+express /ad infinitumj/ one and the same Original Imabe [/Urbild/], the
+pURE fORM OF OUR sPIRIT.
+
+Oken,
+
+Physio-philosophy is, therefore, the generative history of the world, or
+in general temrs, the History of Creation... Man is the summit, the
+crown of nature's development, and must comprehend everything that has
+preceded him, even as the gruit includes within aitself all the earlier
+developed parts of the plant. In a word, Man must representt he whole
+world in miniature. Now since in Man are manifested self-consciousness
+or spirit, physio-philosophy has to show that the laws of spirit are not
+different from the laws of nature, but that both are transcripts or
+likenesses of each other.... The whole of physio-philosophy de\pends,
+consequently, upon the demonstration of the parallelism that exists
+between the activities of nature and spirit.
+
+Kant: (3^{rd} critique)
+
+an organized being is, therefore, not a mere machine. For a machine has
+solely motive power, whereas an organized being possesses inherent
+formative power, and such, moreover, as it can impart to materiual
+devoid of it..
+
+Goether (see quotes)
+"
 
 
 * Lecture {{{n}}} ({{{ts}}}): Many verysoins of tnlightenment stuff
@@ -1368,65 +1427,6 @@ also make space for interiority.
 
 
 
-* Lecture {{{n}}} ({{{ts}}}): Brief version of "romanticism"
-3 parts to today's lecture:
-
-1. Schelling's Philosohie of Nature
-
-2. Goethe's History
-
-   Goethe as scientist,writer, and administrator.
-
-   Scientist: Urbild, Urplanze. Nature as opposing forces...
-
-   Asministrator:
-
-2. Faustian Myths and bargains...
-
-Schelling, 1797: (Allgemeine Uebersicht der neusten philosophischen
-Literatur)
-
-because there is in our spirit an infinite striving to organize itself,
-so in the outer world must a general tendency to organization reveal
-itself... The world system is a dkind of organization, which has formed
-itself from a common centre. The powers of chemical matter are already
-beyond the boundaries of the merely mechanical. Even raw materials which
-separate out of a common medium crystallize out as sregular figures. The
-general formative drive [Bildungstrieb] in nature loses itself finally
-in an infinitude, which even the prepared eye is unable to measure....
-It is the general Spirit of nature, whuch gradually forms the raw matter
-into itself. From moss, in which the trace of organization is hardly
-visible, to the noble Form, whuch seems to have shed the chains of
-matter, there rules one and the same drive within, which strives to work
-according to one and the same Ideal of Purposefulness, strives to
-express /ad infinitumj/ one and the same Original Imabe [/Urbild/], the
-pURE fORM OF OUR sPIRIT.
-
-Oken,
-
-Physio-philosophy is, therefore, the generative history of the world, or
-in general temrs, the History of Creation... Man is the summit, the
-crown of nature's development, and must comprehend everything that has
-preceded him, even as the gruit includes within aitself all the earlier
-developed parts of the plant. In a word, Man must representt he whole
-world in miniature. Now since in Man are manifested self-consciousness
-or spirit, physio-philosophy has to show that the laws of spirit are not
-different from the laws of nature, but that both are transcripts or
-likenesses of each other.... The whole of physio-philosophy de\pends,
-consequently, upon the demonstration of the parallelism that exists
-between the activities of nature and spirit.
-
-Kant: (3^{rd} critique)
-
-an organized being is, therefore, not a mere machine. For a machine has
-solely motive power, whereas an organized being possesses inherent
-formative power, and such, moreover, as it can impart to materiual
-devoid of it..
-
-Goether (see quotes)
-"
-
-
 * Lecture {{{n}}} ({{{ts}}}): Frankenstein & Faust
   :PROPERTIES:
   :CUSTOM_ID: lecture
@@ -1465,21 +1465,9 @@ discover so astonishing as ecret.
   :CUSTOM_ID: frankenstein
   :END:
 
-Most famous work to deal with romantic vision of science,
-self-realization, is Shelley's /Frankenstein./M. W. Shelley (1797-18519
-was daughter of MW and William Godwin. 1814 (17 years old) elopes with
-Persy Bysshe Shelley, Romantic poet, elopes with him (despite his
-marriage). 2 years later, in Swiss Alps, Shelly, Mary, Byron have
-ghost-story writing contest. Novel finished shortlty thereafter.
-Aesthetically flawed work; by writer who never produced another novel to
-rival it; yet remains one ofm ost powerful stofies of our era, so
-brilliantly did it capture fundamental problems of our age.
+Most famous work to deal with romantic vision of science, self-realization, is Shelley's /Frankenstein./ M. W. Shelley (1797-1851) was daughter of MW and William Godwin. 1814 (17 years old) elopes with Persy Bysshe Shelley, Romantic poet (despite his marriage). 2 years later, in Swiss Alps, Shelly, Mary, Byron have ghost-story writing contest. Novel finished shortlty thereafter. Aesthetically flawed work; by writer who never produced another novel to rival it; yet remains one of most powerful stofies of our era, so brilliantly did it capture fundamental problems of our age.
 
--Novel follows Victor Frankenstein, Swiss bourgeois raised on texts of
-medeival alchemy who encounters newest galvanic researches while
-studying in Ingolstadt. Frankenstein learns the immense power of the new
-sciences (p.47 quote old vs new). Passion grips him, a passion which
-more than rivals his pale amorous attachment to his stepsister.
+-Novel follows Victor Frankenstein, Swiss bourgeois raised on texts of medeival alchemy who encounters newest galvanic researches while studying in Ingolstadt. Frankenstein learns the immense power of the new sciences (p.47 quote old vs new). Passion grips him, a passion which more than rivals his pale amorous attachment to his stepsister.
 
 - weeks on end seeks secret of galvanic mystery which ties life to brute
   matter. And finds it. in moment of striking illumination while
@@ -1500,7 +1488,7 @@ more than rivals his pale amorous attachment to his stepsister.
 - -in conclusion of novel, when the monster confronts the sole surviving
   acquaintance of Frankenstein on the iced-over Arctic seas, monster
   recounts his transformation into a chreature of evil:
-- N... I seek not a fellow feeling in my misery. o sympathy may I ever
+- N... I seek not a fellow feeling in my misery. No sympathy may I ever
   find. When I first sought it, it was the love of virtue, the feelings
   of happiness and affection with which my whole being over flowed, that
   I wished to be participated. But now that virtue has become to me a
@@ -1742,7 +1730,7 @@ condensed by jet of cold watter, creating vacuum which pulled piston
 back into shaft (gearheads: this is inverse of modern internal
 combustion engine).
 
--by our standards hideously inefficient. Needed so much coal only
+^- by our standards hideously inefficient. Needed so much coal only
 practical use was at coal mines! Mostly used to pump water.
 
 While repairing engine, Watt notices various technical problems and gets
@@ -1752,17 +1740,17 @@ interested in efficiency of engines (like all Presbyterians, abhors
 once per cycle (otherwise vacuum is weak). But max /economy / demands
 cylinder kept hot (else need too much coal). How to fix this?
 
--Watt: introduce sep. cooling chamber. shunt steam into (permanently
+^- Watt: introduce sep. cooling chamber. shunt steam into (permanently
 cold) cooling chamber, pull lever down; then close passage to chamber,
 reopen cylinder, pump in air, pull down piston.
 
--also increase max power by adding steam pressure to downstroke.
+^- also increase max power by adding steam pressure to downstroke.
 
--scientific consequences: first obvious instance of "heat" engine,
+^- scientific consequences: first obvious instance of "heat" engine,
 demonstrating that heat can be converted into mechanical energy. get to
 that later.
 
--technical consequences: Watt engine far more efficient, and gets
+^- technical consequences: Watt engine far more efficient, and gets
 increasingly so over c. 18 and into c. 19. also uses high-pressure
 steam, not "atmospheric" pressure steam like Newcomen  power virtually
 unlimited. Can be used for almost anything! immensely powerful.
@@ -1783,7 +1771,7 @@ raised 1 ft in 1 minute);
  by 1800, almost 500 engines sold. This number continues to increase
 exponentially for much of c. 19.
 
--numerous technical improvements -- of which most important is
+^- numerous technical improvements -- of which most important is
 'governor', which becomes important later on and of which we may or may
 not have occasion to speak in future.
 
@@ -1813,7 +1801,7 @@ thinking in a systematic way.
 
 highlight this: no more checks and balances among progressives.
 
--Progress, already fundamental to Adam Smith's account of economy,
+^- Progress, already fundamental to Adam Smith's account of economy,
 becomes enshrined in every version of pol economy to arise in early c.
 19. But whereas Smith sees harmony and equality, others see conflict and
 hierarchy. Among most prominent of these was Charles Babbage
@@ -1837,31 +1825,31 @@ specialized activity, doesn't indicate that this is hierarchical)/.
 
 (following from Wise, "Work and Waste II", p.412-415
 
--for Babbage, 'capital behaves like /engine power; /it sets skill and
+^- for Babbage, 'capital behaves like /engine power; /it sets skill and
 labour in action in the way an engine sets machines in action.
 
--middlemen like /flywheel/: store surplus production and dispense it.
+^- middlemen like /flywheel/: store surplus production and dispense it.
 
--/money/ is means for transmitting value through the economy,
+- /money/ is means for transmitting value through the economy,
 funcitoning like neutral /mechanism for transmitting power. e.g. relates
 workers to employers in the way 'unerring piece of mechanism' connects
 power source to work. /
 
 /-/friction/ should be avoided, e.g. taxes. /
 
--so whole economy is, in essence, a machine strictly analogous to a
+- so whole economy is, in essence, a machine strictly analogous to a
 precisely engineered factory with a /steam engine/ at its heart.
 
--note interesting fact: on one hand, /laissez-faire/, on other, strictly
+- note interesting fact: on one hand, /laissez-faire/, on other, strictly
 planned for optimization. essential tension dominates economics to the
 present.
 
-- at even broader level, Babbage argued that /science/ is the engine of
+-  at even broader level, Babbage argued that /science/ is the engine of
 society: in economy of knowledge, science is reservoir of force which
 powers action and, in general, human progress, like capital powers the
 economy.
 
--This just one of many examples, explored more thoroughly by NW in "Work
+- This just one of many examples, explored more thoroughly by NW in "Work
 and Waste" and "mediating machines". Point want to convey here is that
 steam engine not only changed production, changed way people understood
 themselves and their society, and also natural world (more on that next
@@ -1941,7 +1929,7 @@ to the overseer, the manager, men such as Babbage.
  Also, of course, exerted practical effects on world of work, e.g. via
 creation of new classes of workers, esp. women and children...
 
--Smith's defense of div'n of labour transformed, then, into quite
+- Smith's defense of div'n of labour transformed, then, into quite
 different vision. by time of Babbage. strictly hierarchical; less
 intimately rooted in theory of human nature, instead completes process
 of 'naturalization ' of human activity. Still comedic visin, but
@@ -2109,7 +2097,7 @@ expanding substance except that which is expended on productive work.
  Steam-engine is repalced by ‘heat engine' -- steam-engine becomes part
 of the natural order.
 
--this ideal heat engine /must/ be the most efficient possible. (connect
+- this ideal heat engine /must/ be the most efficient possible. (connect
 two engines, one forward, one backwards; if one is more efficient, it
 runs the latter and generates work out of /no / net fall of heat.
 
@@ -2158,10 +2146,10 @@ thermodynamics.
 In light of Joule's claims about the mechanical value of heat, Kelvin
 rewrote carnot in his ‘relexions on...'(1849). poses 2 questions:
 
--what is the precise nature of the thermal agency by means of which
+- what is the precise nature of the thermal agency by means of which
 /mechanical effect/ is to be produced, without effects of other kinds?
 
--How may the amount of this thermal agency necessary for performing a
+- How may the amount of this thermal agency necessary for performing a
 given quantity of work be estimated?
 
 ‘we perceive that a certain quantity of heat is /let down/ from a hot
@@ -2268,7 +2256,7 @@ serves as an intellectual /resource/ to hompson when when he goes to
 formulate his physical theories, and also as a theological
 presupposition on which to found his theory.
 
--think about this historically: analogy btwqn two disparate kinds of
+- think about this historically: analogy btwqn two disparate kinds of
 thought. Argumet is, in effect, that structure of theory is imported
 from a distal point and reapplied to the new formation/but also/
 
@@ -2298,10 +2286,10 @@ machine and organism twins seperated t birth. descartes, vaucanson
 Remnder: Ritter and research on anaimal electricity, quest for a life
 force.
 
--supplemented ancient doctrine of /animal heat/: claims special source
+- supplemented ancient doctrine of /animal heat/: claims special source
 of heat produced in animal bodies.
 
--like electricity, heat thoroughly investigated in c. 19. from caloric
+- like electricity, heat thoroughly investigated in c. 19. from caloric
 to energetic account.
 
 -investigations of animal heat and vital forces carried out by Johannes
@@ -6510,9 +6498,6 @@ testing out the overview
 ** another stuff
 * Lecture {{{n}}} ({{{ts}}}): Topic 2
 * Lecture {{{n}}} ({{{ts}}}): COMMENT Local Variables                          
-# Local Variables:
-# org-reveal-auto-export-on-save: t
-# End:
 
 * COMMENT Variables
 
@@ -6521,10 +6506,12 @@ file-local-variables-alist
 #+end_src
 
 #+RESULTS:
-: ((org-reveal-auto-export-on-save . t))
+: ((org-reveal-auto-export-on-save . t) (org-time-stamp-custom-formats <%b. %d> . <%Y-%m-%d %H:%M>) (org-mwp-classtimes-calibrate <2019-01-03 Thu> <2019-01-01 Tue>))
 
 * 
+
 # Local Variables:
+# org-reveal-auto-export-on-save: t
 # org-time-stamp-custom-formats: ("<%b. %d>" . "<%Y-%m-%d %H:%M>")
-# mwp-classtimes-calibrate: ("<2019-01-03 Thu>" "<2019-01-01 Tue>" )
+# org-mwp-classtimes-calibrate: ("<2019-01-03 Thu>" "<2019-01-01 Tue>" )
 # End:
