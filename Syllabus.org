@@ -16,8 +16,8 @@
 
 | *Instructor:*   | Matt Price             |
 | *Email:*        | matt.price@utoronto.ca |
-| *Office Hrs:*   | T Th 5-6, [[http://map.utoronto.ca/utsg/building/033][SS 3077]]      |
-| *Meeting Times* | T Th 4-5, [[http://map.utoronto.ca/utsg/building/033][SS 1088]]      |
+| *Office Hrs:*   | T Th 3-4, [[http://map.utoronto.ca/utsg/building/033][SS 3077]]      |
+| *Meeting Times* | T Th 4-5, [[http://map.utoronto.ca/utsg/building/033][SS 2108]]  |
 
 * Course Description
 What does it mean to be modern? We use words like “modern,” “modernity,” and “modernism” to mark a fundamental boundary between our era and all that came before it (or lies outside of it); but most of us are hard-pressed to offer a solid account of what exactly this boundary is. The precise nature of the rupture between modernity and pre- or non-modernity is a vast topic, and this course will not attempt to answer it fully. Instead, we will investigate the question of modernity with a particular eye to the history of science and technology. We will focus on a few key developments which took place in or around the Nineteenth Century, but will also wander into the first decades of the Twentieth. The organization of the course is an implicit argument that certain phenomena, namely:
@@ -49,10 +49,10 @@ Your grade consists of the following components:
 
 |   | Assignment       | Due Date | Weight |
 |---+------------------+----------+--------|
-| # | Midterm "Exam" 1 | <2017-02-08 Wed>  |     25 |
-| # | Midterm "Exam" 2 | <2019-03-15 Fri>  |     25 |
-| # | Paper Proposal   | <2019-03-21 Thu>  |     10 |
-| # | Final Paper      | <2019-04-08 Mon>  |     30 |
+| # | Midterm "Exam" 1 | <2019-09-26 Thu>  |     25 |
+| # | Midterm "Exam" 2 | <2019-11-11 Mon>  |     25 |
+| # | Paper Proposal   | <2019-11-14 Thu>  |     10 |
+| # | Final Paper      | <2019-12-05 Thu>  |     30 |
 | # | Participation    | n/a      |     10 |
 |---+------------------+----------+--------|
 |   |                  |          |    100 |
