@@ -1,7 +1,8 @@
 #+MACRO: ts (eval(mwp-get-ts+7  'org-mwp-classtimes-calibrate 2))
 #+STARTUP: customtime
 #+TITLE: HIS389: Science, Technology, Modernity
-#+ORG_LMS_COURSEID: 89033
+#+ODT_STYLES_FILE: "/home/matt/.emacs.d/Templates/syl-temp-2019.odt"
+#+ORG_LMS_COURSEID: 112215
 # #+ORG_LMS_ASSIGNMENTS: ~/DH/Assignments.org
 #+IS_PUBLIC: t
 
@@ -603,6 +604,9 @@ ap4.w5 -- FOLUME MAY BE MISSING.
 ;; (org-lms-setup)
 #+end_src
 
+#+RESULTS:
+: 11834~96SJ9HQecRwc6mUcePZGPNuwfGuqbyhRVedkAuPBxcZTew6cRkVw0gUITZPN2U7b
+
 #+begin_src emacs-lisp
 (symbol-value 'mwp-classtimes-calibrate)
 #+end_src
@@ -614,7 +618,7 @@ ap4.w5 -- FOLUME MAY BE MISSING.
 
 local variables need to be set at the end of the file.
 
-* new Schedule
+** new Schedule
 
 - degeneration
 - risk societies
@@ -660,6 +664,6 @@ tbl
 
 # Local Variables:
 # org-time-stamp-custom-formats: ("<%b. %d>" . "<%Y-%m-%d %H:%M>")
-# org-mwp-classtimes-calibrate: ("<2019-01-03 Thu>" "<2019-01-01 Tue>" )
+# org-mwp-classtimes-calibrate: ("<2019-09-03 Tue>" "<2019-08-29 Thu>" )
 # End:
 
