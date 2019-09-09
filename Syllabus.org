@@ -1,15 +1,14 @@
-#+MACRO: ts (eval(mwp-get-ts+7  'org-mwp-classtimes-calibrate 2))
-#+STARTUP: customtime
+#+SETUPFILE: ./setup.org
 #+TITLE: HIS389: Science, Technology, Modernity
 #+ODT_STYLES_FILE: "/home/matt/.emacs.d/Templates/syl-temp-2019.odt"
-#+ORG_LMS_COURSEID: 112215
-# #+ORG_LMS_ASSIGNMENTS: ~/DH/Assignments.org
 #+IS_PUBLIC: t
 
-* COMMENT Setup
+* COMMENT Setup & browsing
 #+begin_src emacs-lisp :results none
 ;; (org-lms-setup)
 (org-lms-post-syllabus)
+(browse-url (concat "https://q.utoronto.ca/courses/"
+                    (org-lms-get-keyword "ORG_LMS_COURSEID")  ))
 #+end_src
 
 * Logistics

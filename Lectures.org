@@ -1,10 +1,5 @@
-#+STARTUP: customtime
-#+HUGO_BASE_DIR: ./website/
-#+HUGO_SECTION: assignment
-#+HUGO_STATIC_IMAGES: Images
+#+SETUPFILE: ./setup.org
 #+HUGO_MENU: :menu main :parent Assignments
-#+HUGO_AUTO_SET_LASTMOD: t
-#+MACRO: ts (eval (mwp-get-ts+7  'org-mwp-classtimes-calibrate 2))
 
 #+begin_src emacs-lisp
   ;;etq org-mwp-classtimes-calibrate '("<2019-01-03 Thu>" "<2019-01-01 Tue>" ))

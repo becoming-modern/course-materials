@@ -2,3 +2,5 @@
 324
 Grades
 *.odt
+*.tex
+/test-lms.org
