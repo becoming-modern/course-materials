@@ -29,16 +29,14 @@ org-mwp-classtimes-calibrate
 #+RESULTS:
 
 
-* {{{n}}} Modernity and Legibility
+* Lecture {{{n}}} ({{{ts}}}): Intro: Modernity and Legibility
 HIS389H1S-L0601
 
-01: Modernity and Legibility
-
-Summary:
+** Summary:
 
 Explain a bit about the aims of the course
 
-I. Science and Modernity
+** Science and Modernity
 
 Some time around 1800, Western world began to change in a rapid and
 ddramatic fashion. Propositions that had been taken for granted in the
@@ -49,8 +47,7 @@ humans to the natural world -- were rapidly and aggresively called into
 question. The next 100 years or so were probabaly as explosively
 transformative a time as any in human history.
 
-Who I am, why I want to teach this class, what my goals are, what I'm
-worried about?
+*** Who I am, why I want to teach this class, what my goals are, what I'm worried about
 
 -research interests (history is an angel flying backwards into the
 future)
@@ -92,7 +89,7 @@ paper.
 
 -wierd fact: climbing accident
 
-Couple of main themes will push throughout the course:
+*** Couple of main themes will push throughout the course:
 
 -"double vision" of modernity: progress, or better, constant directed
 change, as salvation, doom, or both. apocalyptic visions mingled with
@@ -104,9 +101,15 @@ Utopian dreams.
 external to history; but nonetheless /central/ to any understanding of
 c. 19.
 
+** Honeybees: a fable
+- bees as a sort of rorscharch test -- so many interpretations!
+- Mandevill, fable of the bees.
+- technocratic central organization
+- contemporary bekeeing's divorce from natural processes
+- nature's revenge etc etc.  
 
 
-II. Modernization, Modernism, Modernity
+** Modernization, Modernism, Modernity
 
 -mod, thy. most famously, thy of development which asserts that large
 number of social, economic, and political factors characteristic of
@@ -147,7 +150,7 @@ Weber
 
 Marx
 
-III. Tragic and Comic Views of Modernity
+** Tragic and Comic Views of Modernity
 
 needs expansion (write 4 paragraphs)
 
@@ -6257,10 +6260,9 @@ file-local-variables-alist
 #+RESULTS:
 : ((org-reveal-auto-export-on-save . t) (org-time-stamp-custom-formats <%b. %d> . <%Y-%m-%d %H:%M>) (org-mwp-classtimes-calibrate <2019-01-03 Thu> <2019-01-01 Tue>))
 
-* 
 
 # Local Variables:
 # org-reveal-auto-export-on-save: t
 # org-time-stamp-custom-formats: ("<%b. %d>" . "<%Y-%m-%d %H:%M>")
-# org-mwp-classtimes-calibrate: ("<2019-01-03 Thu>" "<2019-01-01 Tue>" )
+# org-mwp-classtimes-calibrate: ("<2019-09-03 Tue>" "<2019-08-29 Thu>" )
 # End:
